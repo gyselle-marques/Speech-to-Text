@@ -78,6 +78,7 @@ def respond(text):
     elif 'exit' in text:
         speak("Goodbye, till next time.")
         exit()
+        
 #play music
 def playmusic(song):
     mixer.init()
